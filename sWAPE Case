@@ -1,0 +1,21 @@
+Question:-
+
+You are given a string and your task is to swap cases. In other words, 
+convert all lowercase letters to uppercase letters and vice versa.
+
+Solution:-
+
+def swap_case(s): 
+    import string
+    H=(string.swapcase(s))
+    return H
+    
+
+if __name__ == '__main__':
+    s = raw_input()
+    result = swap_case(s)
+    print result
+    
+    
+    IMP:-swapcase is a method which helps in doing interchanging. (i.e:- lower case to uppercase and vice-versa)
+    
