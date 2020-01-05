@@ -1,0 +1,28 @@
+Question:-
+You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
+
+Solution:-
+
+Important
+
+>>> a = "this is a string"
+>>> a = a.split(" ") # a is converted to a list of strings. 
+>>> print a
+['this', 'is', 'a', 'string']
+
+>>> a = "-".join(a)
+>>> print a
+this-is-a-string 
+
+Code:-
+
+def split_and_join(line):
+    # write your code here
+    A=line.split(" ")
+    B="-".join(A)
+    return B
+
+if __name__ == '__main__':
+    line = raw_input()
+    result = split_and_join(line)
+    print result
